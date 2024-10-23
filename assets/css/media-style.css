@@ -1,0 +1,577 @@
+/* navbar media query start */
+@media screen and (max-width:1131px) {
+    .nav-links{
+        gap: 1.5rem;
+    }
+    .nav-buttons{
+        gap: 1rem;
+    }
+}
+
+@media screen and (max-width:966px) {
+    .nav-link{
+        display: none;
+    }
+    .nav-buttons{
+        display: none;
+    }
+    #menu-bar{
+        display: block;
+    }
+}
+/* navbar media query end */
+
+/* intro media query start */
+@media screen and (max-width:1629px) {
+    .intro{
+        padding: 6% 5.8%;
+    }
+    .intro-details{
+        gap: 2rem;
+    }
+    .intro-details p{
+        line-height: 2.5rem;
+    }
+    .intro-buttons{
+        gap: 2.2rem;
+    }
+    #sign-up-button {
+        font-size: 1.8rem;
+        padding: 1rem 3rem;
+        border-radius: 0.7rem;
+    
+    }
+    #view-demo-button{
+        gap: 1rem;
+    }
+    .intro-logos{
+        gap: 3rem;
+        padding-top: 1rem;
+    }
+    .intro-logos h5{
+        font-size: 1.2rem;
+    }
+    .logos{
+        gap: 3rem;
+    }
+    
+    .logos img{
+        height: 3rem;
+    }
+    .intro-buttons button{
+        padding: 1rem 4rem;
+    }
+    .heading{
+        font-size: 5.5rem;
+        line-height: 6rem;
+    }
+    
+    
+}
+@media screen and (max-width:1393px) {
+    #sign-up-button {
+        font-size: 1.2rem;
+        padding: 1rem 3rem;
+    
+    }
+    .intro-logos h5{
+        font-size: 0.9rem;
+    }
+    .heading{
+        font-size: 4.3rem;
+        line-height: 4.8rem;
+    }
+    #demo{
+        font-size: 1.6rem;
+    }
+    #intro-para{
+        font-size: 1.6rem;
+    } 
+    .logos img{
+        height: 1.9rem;
+    }
+    .teacher{
+        bottom: 0;
+        height: 23rem;
+    }
+    .student{
+        top: 0;
+        right: 0;
+        height: 23rem;
+    }
+    .chat{
+        top: 10px;
+        left: 20%;
+        height: 14rem;
+    }
+    .three-logo{
+        bottom: 0;
+        right: 100px;
+        height: 8rem;
+    }
+
+}
+@media screen and (max-width:1183px) {
+    .intro{
+        flex-direction: column;
+    }
+    .intro-images{
+        min-height: 30rem;
+    }
+    .chat{
+        left: 38%;
+        height: 14rem;
+    }
+}
+@media screen and (max-width:651px) {
+    #sign-up-button {
+        font-size: 1rem;
+        padding: 1rem 3rem;
+    
+    }
+    .intro-logos h5{
+        font-size: 0.8rem;
+    }
+    .heading{
+        font-size: 4rem;
+        line-height: 4.2rem;
+    }
+    #demo{
+        font-size: 1.4rem;
+    }
+    #intro-para{
+        font-size: 1.4rem;
+    } 
+    .logos img{
+        height: 1.6rem;
+    }
+    .intro-images{
+        min-height: 27rem;
+    }
+    .teacher{
+        /* bottom: 0; */
+        height: 18rem;
+    }
+    .student{
+        top: 0;
+        right: 0;
+        height: 18rem;
+    }
+    .chat{
+        top: 10px;
+        left: 20%;
+        height: 11rem;
+    }
+    .three-logo{
+        bottom: 0;
+        right: 100px;
+        height: 6rem;
+    }
+    .intro-details{
+        gap: 1.5rem;
+    }
+    .intro-details p{
+        line-height: 2rem;
+    }
+    .intro-buttons{
+        gap: 2rem;
+    }
+    #sign-up-button {
+        font-size: 1.4rem;
+        padding: 0.8rem 2rem;
+        border-radius: 0.7rem;
+    
+    }
+    #view-demo-button{
+        gap: 1rem;
+    }
+    .intro-logos{
+        gap: 3rem;
+        padding-top: 1rem;
+    }
+    .logos{
+        gap: 2.5rem;
+    }
+}
+@media screen and (max-width:487px) {
+    .intro-logos h5{
+        font-size: 1rem;
+    }
+    .heading{
+        font-size: 3rem;
+        line-height: 3rem;
+    }
+    #demo{
+        font-size: 1.4rem;
+    }
+    #intro-para{
+        font-size: 1rem;
+    } 
+    .logos img{
+        height: 1.6rem;
+    }
+    .intro-images{
+        min-height: 20rem;
+    }
+    .teacher{
+        /* bottom: 0; */
+        height: 13rem;
+    }
+    .student{
+        top: 0;
+        right: 0;
+        height: 13rem;
+    }
+    .chat{
+        top: 10px;
+        left: 20%;
+        height: 7rem;
+    }
+    .three-logo{
+        bottom: 0;
+        right: 10px;
+        height: 5rem;
+    }
+    .intro-details{
+        gap: 1rem;
+    }
+    .intro-details p{
+        line-height: 1rem;
+    }
+    .intro-buttons{
+        gap: 1.5rem;
+    }
+    #sign-up-button {
+        font-size: 1.2rem;
+        padding: 0.8rem 1.7rem;
+        border-radius: 0.7rem;
+    
+    }
+    #view-demo-button{
+        gap: 0.6rem;
+    }
+    .intro-logos{
+        gap: 2rem;
+    }
+    .logos{
+        gap: 2rem;
+    }
+}
+@media screen and (max-width:367px) {
+    #sign-up-button {
+        font-size: 1rem;
+        padding: 0.5rem 1rem;
+        border-radius: 0.7rem;
+    
+    }
+    #view-demo-button{
+        gap: 0.1rem;
+    }
+    .intro-logos{
+        gap: 2rem;
+    }
+    .logos{
+        gap: 2rem;
+    }
+}
+
+/* intro media query end */
+/* tools media query start */
+@media screen and (max-width:1200px) {
+    .main-heading{
+        font-size: 3rem;
+    }
+    .tools-heading{
+        gap: 2.5rem;
+        padding: 5% 5.4%;
+    }
+    .tools-heading p{
+        font-size: 1.3rem;
+    }
+    #underline-logo img{
+        width: 7rem;
+    }
+    
+} 
+@media screen and (max-width:648px) {
+    .main-heading{
+        font-size: 2rem;
+        font-weight: 500;
+    }
+    .tools-heading{
+        gap: 2rem;
+        padding: 4% 5.4%;
+    }
+    .tools-heading p{
+        font-size: 1rem;
+    }
+    #underline-logo img{
+        width: 5rem;
+        height: 1rem;
+    }
+    
+} 
+
+/* tools media query end */
+/* slider media query start */
+@media screen and (max-width:1629px) {
+    #slider-head{
+        font-size: 4.3rem;
+        font-weight: 700;
+    }
+    .slider-container{
+        padding-bottom: 5%;
+    }
+    .slider-heading{
+        padding: 5% 0;
+    }
+    .slider-container {
+        width: 100%;
+      }
+      .card {
+        min-width: 33%;
+        padding: 3rem;
+        margin: 0 1rem;
+      }
+      
+      .card p {
+        font-size: 1.4rem;
+        line-height: 1.5;
+      }
+      
+      .profile {
+        margin-top: 1.4rem;
+      }
+      
+      .profile img {
+        width: 3rem;
+        height: 3rem;
+        border-radius: 50%;
+        margin-right: 0.6rem;
+      }
+}
+@media screen and (max-width:1221px) {
+    #slider-head{
+        font-size: 3.8rem;
+        font-weight: 700;
+    }
+    .slider-container{
+        padding-bottom: 5%;
+    }
+    .slider-heading{
+        padding: 5% 0;
+    }
+    .slider-container {
+        width: 100%;
+      }
+      .card {
+        min-width: 33%;
+        padding: 2rem;
+        margin: 0 1rem;
+      }
+      
+      .card p {
+        font-size: 1.1rem;
+        line-height: 1.3;
+      }
+      
+      .profile {
+        margin-top: 1.4rem;
+      }
+      
+      .profile img {
+        width: 3rem;
+        height: 3rem;
+        border-radius: 50%;
+        margin-right: 0.2rem;
+      }
+}
+@media screen and (max-width:864px) {
+    #slider-head{
+        font-size: 3rem;
+        font-weight: 700;
+    }
+    .slider-container{
+        padding-bottom: 5%;
+    }
+    .slider-heading{
+        padding: 5% 0;
+    }
+    .slider-container {
+        width: 100%;
+      }
+      .card {
+        min-width: 45%;
+        padding: 2rem;
+        margin: 0 0.2rem;
+      }
+      
+      .card p {
+        font-size: 1rem;
+        line-height: 1.2;
+      }
+      
+      .profile {
+        margin-top: 1rem;
+        display: flex;
+        flex-direction: column;
+      }
+      
+      .profile img {
+        width: 2rem;
+        height: 2rem;
+        border-radius: 50%;
+        margin-right: 0.2rem;
+      }
+}
+@media screen and (max-width:634px) {
+    #slider-head{
+        font-size: 1.7rem;
+        font-weight: 500;
+    }
+    .slider{
+        -webkit-overflow-scrolling: touch;
+    overflow-x: scroll;
+    scrollbar-width: none; 
+    }
+      .card {
+        min-width: 100%;
+        padding: 2rem;
+        margin: 1rem 1rem;
+      }
+      .slider-buttons{
+        display: none;
+      }
+      .slider-heading{
+        justify-content: center;
+      }
+}
+/* slider media query end */
+/* join media query start */
+@media screen and (max-width:1393px) {
+    .join-text{
+        gap: 1.5rem;
+        
+    }
+    .join-text h1{
+        font-size: 2.7rem;
+    }
+    .join-text p{
+        line-height: 2.7rem;
+        font-size: 1.2rem;
+    }
+}
+@media screen and (max-width:938px) {
+    .join-text{
+        gap: 1rem;
+        
+    }
+    .join-text h1{
+        font-size: 2rem;
+    }
+    .join-text p{
+        line-height: 2rem;
+        font-size: 1rem;
+    }
+}
+@media screen and (max-width:664px) {
+    .join-text{
+        gap: 0rem;
+        
+    }
+    .join-text h1{
+        font-size: 2rem;
+    }
+    .join-text p{
+        line-height: 1rem;
+        font-size: 0.6rem;
+    }
+    .join-text #sign-up-button{
+        font-size: 1rem;
+        padding: .5rem 1.5rem;
+    }
+}
+@media screen and (max-width:467px) {
+    .join-text h1{
+        font-size: 1rem;
+    }
+    .join-text p{
+        line-height: 0.8rem;
+        font-size: 0.6rem;
+    }
+    .join-text #sign-up-button{
+        font-size: 0.7rem;
+        padding: .3rem 1rem;
+    }
+}
+/* join media query end */
+/* footer media query start */
+@media screen and (max-width: 1050px) {
+    .footer-column, .footer-logo {
+      flex: 1 1 calc(30% - 2rem); 
+    }
+    .footer-columns{
+        row-gap: 2rem;
+    }
+  }
+@media screen and (max-width: 840px) {
+    .footer-columns{
+        row-gap: 1rem;
+    }
+    .footer-column h4 {
+        font-size: 1rem;
+      }
+      .footer-column a {
+        font-size: 1rem;
+      }
+      .beta-tag {
+        padding: 0.2rem 0.9rem;
+        font-size: 1rem;
+      }
+  }
+@media screen and (max-width: 526px) {
+    .footer-column, .footer-logo {
+      flex: 1 1 calc(100% - 2rem);
+    }
+    .footer-columns{
+        row-gap: 1rem;
+        text-align: center;
+    }
+    .footer-logo{
+        justify-content: center;
+    }
+    .beta-tag {
+        padding: 0.2rem 0.5rem;
+        font-size: .5rem;
+      }
+      .footer-column {
+        gap: 1rem;
+      }
+  }
+@media screen and (max-width: 783px) {
+    .footer-bottom {
+        padding: 1.4rem 0;
+        font-size: 1rem;
+      }
+      .footer-links {
+        gap: 2.5rem;
+      }
+  }
+@media screen and (max-width: 611px) {
+    .footer-bottom{
+        row-gap: 1rem;
+        margin: 0 auto;
+        justify-content: center;
+    }
+    .footer-links {
+        gap: 1rem;
+      }
+    .footer-links span{
+        flex: 1 1 30%;
+    }
+    #footer-logo{
+        display: flex;
+        gap: 0.5rem;
+      }
+  }
+/* footer media query end */
